@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: rgb(81, 63, 63);
+    display: flex;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.only{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.fuse{
+    font-size: 22px;
+}
+
+.nav, .nave, .nav11{
+    display: flex;
+    color: white;
+}
+.nav11{
+    margin-left: auto;
+    display: flex;
+    margin-right: 50px;
+    padding: 10px;
+}
+.nav1{
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.nave a{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* FIRST SECTION */
+.first{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.first_section{
+    background:  url('/IMG/background.jfif') rgba(194, 151, 151, 0.5);
+    /* background-image: url('/IMG/background.jfif'); */
+    background-size: cover;
+    height:100vh;
+    
+    /* background-attachment: fixed; */
+}
+.first_article{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100vh;
+}
+
+/* SECOND SECTION */
+.current{
+    background-color: rgb(3, 3, 56);
+    color: white;
+    text-align: center;
+    margin: 50px 20px 20px 20px;
+    padding: 70px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.support{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 70px;
+    border-radius: 20px;
+    margin: 10px 20px 50px 20px;
+    font-size: 20px;
+}
+
+.num{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#second{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.line{
+    color: red;
+    font-weight: 900;
+}
+
+
+/* Founder part */
+.founder{
+    float: right;
+}
+
+/* Third Section */
+.dread{
+    width: 250px;
+    height: 250px;
+}
+
+.a_message{
+    margin: 20px;
+}
+
+.hour{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.p1{
+    margin-bottom: 20px;
+}
+
+/* Fourth Section */
+#fourth{
+    margin-top: 90px;
+}
+
+#doc{
+    width: 280px;
+    height: 400px;
+    margin: 20px 50px 30px 20px;
+    float: left;
+}
+
+#doc_con{
+    margin-right: 30px;
+}
+
+#doctor{
+    color: red;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.doctor_comment{
+    line-height: 25px;
+    text-align: justify;
+}
+
+.read{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.doc_duration{
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.doc_center{
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+/* Fifth Section */
+#bur{
+    margin-top: 50px;
+}
+
+#bureau{
+    width: 280px;
+    float: right;
+    margin-right: 25px;
+    margin-left: 50px;
+}
+
+#burea{
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+    margin-bottom: 30px;
+}
+
+#bereau_con{
+    margin-left: 30px;
+}
+
+.fuse_tech{
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sixth Section */
+#work{
+    margin-top: 150px;
+    width: 100%;
+    
+}
+
+.how{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#call_us{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;  
+}
+
+.call{
+    width: 48%;
+    /* background-color: aqua; */
+    margin: 1%;
+    line-height: 35px;
+    padding: 20px;
+    border-radius: 35px;
+    border: 1px solid;
+    margin-top: 50px;
+}
+
+.h4{
+    font-size: 20px;
+}
+
+/* Last section */
+#form_fill{
+    margin: 20px;
+}
