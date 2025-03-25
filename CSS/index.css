@@ -26,7 +26,10 @@ h1{
 .fuse{
     font-size: 22px;
 }
-
+.nav img{
+    width: 50%;
+    object-fit: cover;
+}
 .nav, .nave, .nav11{
     display: flex;
     color: white;
@@ -242,8 +245,9 @@ h1{
 
 /* FOOTER SECTION */
 #foot{
+    color: white;
     width: 100%;
-    background-color: rgb(184, 212, 237);
+    background-color:rgb(114, 33, 3);
 }
 #footer{
     width: 90%;
