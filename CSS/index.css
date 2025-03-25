@@ -15,7 +15,7 @@
 
 h1{
     font-size: 70px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .only{
@@ -238,4 +238,41 @@ h1{
 /* Last section */
 #form_fill{
     margin: 20px;
+}
+
+/* FOOTER SECTION */
+#foot{
+    width: 100%;
+    background-color: rgb(184, 212, 237);
+}
+#footer{
+    width: 90%;
+    margin: auto;
+    padding-top: 8%;
+    display: flex;
+}
+#footer1{
+    width: 40%;
+    margin-right: 8%;
+}
+#footer1 h4{
+    font-weight: 800;
+}
+#footer2{
+    width: 30%;
+}
+#footer2 h4{
+    font-weight: 800;
+}
+#footer2 ul li{
+    line-height: 25px;
+}
+#footer3{
+    width: 30%;
+}
+#footer3 h4{
+    font-weight: 800;
+}
+#footer3 ul li{
+    line-height: 25px;
 }
